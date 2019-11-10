@@ -8,5 +8,5 @@ app.get("/survey", function (req, res) {
 
 // Displays all characters
 app.get("/api/characters", function (req, res) {
-    return res.json(characters);
+    return res.json(Friends);
 });
