@@ -1,21 +1,21 @@
-var characters = [
+var Friends = [
     {
-        routeName: "yoda",
-        name: "Yoda",
+        routeName: "ken",
+        name: "ken",
         role: "Jedi Master",
         age: 900,
         forcePoints: 2000
     },
     {
-        routeName: "darthmaul",
-        name: "Darth Maul",
+        routeName: "Dennis",
+        name: "Denis",
         role: "Sith Lord",
         age: 200,
         forcePoints: 1200
     },
     {
-        routeName: "obiwankenobi",
-        name: "Obi Wan Kenobi",
+        routeName: "Kyle",
+        name: "Kyle",
         role: "Jedi Master",
         age: 55,
         forcePoints: 1350
