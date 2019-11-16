@@ -13,5 +13,8 @@
   "devDependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "nodemailer": "^6.3.1"
   }
 }
