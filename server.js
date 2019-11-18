@@ -20,18 +20,20 @@ app.use(express.json());
 // =============================================================
 
 // Basic route that sends the user first to the AJAX Page
-app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "/app/public/home.html"));
-});
+require(path.join(__dirname, './app/routing/apiRoutes'))(app);
+require(path.join(__dirname, './app/routing/htmlRoutes'))(app);
+// app.get("/", function (req, res) {
+//     res.sendFile(path.join(__dirname, "app/public/home.html"));
+// });
 
-app.get("/survey", function (req, res) {
-    res.sendFile(path.join(__dirname, "/app/public/survey.html"));
-});
+// app.get("/survey", function (req, res) {
+//     res.sendFile(path.join(__dirname, "app/public/survey.html"));
+// });
 
-// Displays all characters
-app.get("/api/characters", function (req, res) {
-    return res.json(characters);
-});
+// // Displays all characters
+// app.get("/api/characters", function (req, res) {
+//     return res.json(characters);
+// });
 
 // Displays a single character, or returns false
 app.get("/api/friends.js/:character", function (req, res) {
