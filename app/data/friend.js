@@ -1,23 +1,24 @@
 var Friends = [
     {
-        routeName: "ken",
-        name: "ken",
+        routeName: "J. Kimmel",
+        name: "Jimmy",
         role: "",
-        age: 900,
+        age: 40,
         forcePoints: 2000
     },
     {
-        routeName: "Dennis",
-        name: "Denis",
+        routeName: "J. Fallon",
+        name: "Jimy",
         role: "",
-        age: 200,
+        age: 40,
         forcePoints: 1200
     },
     {
-        routeName: "Kyle",
-        name: "Kyle",
+        routeName: "J. Oliver",
+        name: "John",
         role: "",
-        age: 55,
+        age: 40,
         forcePoints: 1350
     }
 ];
+module.exports = Friends;

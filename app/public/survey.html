@@ -3,10 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Friend Finder</title>
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/app/style.css">
+
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
@@ -16,8 +20,8 @@
 
     <div class="container">
         <div class="jumbotron">
-            <h1>Your second half.</h1>
-            <h3>Get a room already!</h3>
+            <h1>Friend Finder</h1>
+            <h3>Let's find you some friends!</h3>
             <hr>
             <a href="/"><button class="btn btn-danger btn-lg"><span class="fa fa-eye"></span> View
                     Friends</button></a>
@@ -28,7 +32,7 @@
 
                 <div class="card">
                     <div class="card-header">
-                        <h3><strong>Add a BFF</strong></h3>
+                        <h3><strong>Add Characters</strong></h3>
                     </div>
                     <div class="card-body">
                         <form method="POST" role="form">
@@ -80,7 +84,7 @@
             // Question: What does this code do??
             $.post("/api/characters", newCharacter)
                 .then(function (data) {
-                    console.log("survey.html", data);
+                    console.log("add.html", data);
                     alert("Adding character...");
                 });
         });

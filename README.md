@@ -1,9 +1,8 @@
 # friend-finder-
-
-For this app we are instructed to make clean version of tinder; 
+//* I was not able to finish the assignment since I could not get the routes to work properly. I was able to modify the previous class assigment to be similar. 
+For this app we are instructed to make an app that would match you up with some new friends.; 
 
 first step is to make sure that you have your file structure correct as outlined in instructions.
-
 File directory: 
 FriendFinder
   - .gitignore
@@ -58,3 +57,4 @@ To submit to BCS use the github repo url to submit.
 Any questions can be added to the slack channel "Ask the class".
 
 Last: add your homework assignment to your profile in github. 
+
